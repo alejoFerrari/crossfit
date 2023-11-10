@@ -1,0 +1,581 @@
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: sans-serif;
+
+
+}
+
+/* ETIQUETAS YA CREADAS - INICIO */
+
+img {
+
+    width: 100%;
+    height: auto;
+
+}
+
+a {
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-weight: 800;
+
+    font-family: sans-serif;
+
+}
+
+
+h1 {
+
+    text-align: center;
+
+    color: #B7245C;
+
+
+    font-size: 29px;
+
+    text-transform: uppercase;
+
+    padding-top: 20px;
+
+    padding-bottom: 15px;
+
+    font-weight: bold;
+
+
+}
+
+
+h2 {
+
+    text-align: left;
+
+    color: fuchsia;
+
+    font-size: x-large;
+
+}
+
+
+nav {
+
+    font-size: 20px;
+
+}
+
+.logete {
+
+    width: 150px;
+
+}
+
+.encabezado {
+
+   background-color: black;
+
+}
+
+.texto {
+
+    color: white;
+
+    border-left: #55DBCB 1px solid;
+    border-right:  #55DBCB 1px solid;
+
+}
+
+.texto:hover {
+
+
+    color: #B7245C;
+    font-weight: bold;
+
+}
+
+
+/* ETIQUETAS YA CREADAS - FIN */
+
+
+
+/* NAVEGACION - INICIO*/
+
+
+.titulo {
+
+
+    color: #55DBCB;
+
+    font-size: 40px;
+
+    text-transform: none;
+
+
+}
+
+.logo {
+
+
+    height: 100px;
+
+    width: auto;
+
+
+}
+
+
+
+
+.displayInLine {
+
+    display: inline;
+
+}
+
+
+.displayFlex {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+/* NAVEGACION - FIN */
+
+
+/* INDEX - INICIO */
+
+
+
+.contenedorImagen {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    row-gap: 15px;
+
+}
+
+
+.cardIndex {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+}
+
+
+
+.imagenIndex {
+
+    height: 930px;
+
+}
+
+.textoPresentacion {
+
+    text-align: center;
+
+    font-size: x-large;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.fraseDay {
+
+    display: flex;
+    
+    justify-content: center;
+
+    font-size: 40px;
+
+    color:crimson;
+
+    padding-top: 20px;
+
+    padding-bottom: 25px;
+
+}
+
+
+
+
+
+
+.elejir {
+  border-radius: 6px;
+
+  background-color:#F0544F ;
+
+  height: 10vh;
+  width: 30vh;
+  margin: auto;
+
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+
+
+
+
+}
+
+
+
+/* INDEX - FIN */
+
+
+
+
+
+
+/* PRODUCTOS- INICIO */
+
+
+
+.descripcion {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    padding-top: 10px;
+
+
+}
+
+.precio {
+
+    text-align: center;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+
+    font-size: 20px;
+
+
+
+
+}
+
+.button {
+
+    padding: 5px 20px;
+
+    background-color:#B7245C;
+
+    color: #98F7E9;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    border-radius: 10px;
+
+    border: none;
+
+    cursor: pointer;
+
+
+}
+
+.button:hover {
+
+    background-color: #900C3F;
+
+}
+
+
+.card {
+
+    border-radius: 9px;
+    padding: 15px;
+    background-color: #FFD599;
+    box-shadow: 4px 6px 10px;
+
+}
+
+.card-img-top {
+
+    height: 50vh;
+    object-fit: contain;
+
+
+}
+
+
+
+
+/* PRODUCTOS - FIN */
+
+
+
+/* LOCALES - INICIO */
+
+.contenedorUbi {
+
+    display: flex;
+
+    width: auto;
+
+    height: auto;
+
+    justify-content:space-around;
+
+    text-transform: uppercase;
+
+    font-size: large;
+
+    font-weight: bolder;
+
+    color:darkmagenta;
+
+    padding-top: 10px;
+    
+
+}
+
+
+/* LOCALES - FIN */
+
+
+
+
+
+
+
+
+/* DIETAS - INICIO */
+
+.dias {
+
+    color:black;
+
+    font-weight: bold;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    padding-top: 13px;
+}
+
+.contenedorDietas {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: auto;
+
+    height: auto;
+
+    text-align:center;
+
+    margin: auto;
+
+}
+
+.dietas {
+    
+
+    border: 4px black dashed;
+
+    padding: 20px;
+
+    margin: 30px;
+
+
+}
+
+.tituloDieta {
+
+    color: blueviolet;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    font-size: 18px;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    text-decoration: underline;
+    
+
+}
+
+/* DIETAS - FIN */
+
+
+
+/* CONTACTO - INICIO */
+
+.izquierdaPreguntas {
+
+    text-align: left;
+
+    font-size: larger;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    font-weight: bold;
+
+    margin-left: 10px;
+
+
+}
+
+.der {
+
+ text-align: end;
+
+}
+
+.izq {
+
+    text-align: start;
+
+}
+
+/* CONTACTO - FIN */
+
+
+
+
+/* FOOTER - INICIO */
+
+.link {
+
+    text-align: center;
+
+    color:crimson;
+
+    font-size: medium;
+
+    font-weight: bolder;
+
+
+}
+
+.derechos {
+
+    text-align: end;
+
+}
+
+
+.contenedor {
+
+
+    display: grid;
+
+    width: auto;
+
+    height: auto;
+
+    text-align:center;
+
+    margin: auto;
+
+
+
+}
+
+
+/* FOOTER - FIN */
+
+@media (max-width: 576px){
+
+
+
+
+    .imagenIndex {
+
+        height: auto;
+
+    }
+    
+    .texto {
+
+        border: none;
+
+        text-align: end;
+    }
+
+    .contenedorDietas {
+
+        grid-template-columns: 1fr;
+
+    }
+
+  
+
+
+}
+
+@media (min-width: 577px) and (max-width: 1199px){
+
+    
+    .imagenIndex {
+
+        height: auto;
+
+    }
+
+    .texto {
+
+        border: none;
+
+        text-align: end;
+    }
+
+    .contenedorDietas {
+
+        grid-template-columns: 1fr 1fr;
+
+        
+    }
+
+   
+
+}
+
+
+
+
+
