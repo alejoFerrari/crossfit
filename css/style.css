@@ -36,7 +36,7 @@ h1 {
 
     text-align: center;
 
-    color: #B7245C;
+    color: #D99B5E;
 
 
     font-size: 29px;
@@ -78,23 +78,23 @@ nav {
 
 .encabezado {
 
-   background-color: black;
+   background-color: #104B53;
 
 }
 
 .texto {
 
-    color: white;
+    color: #D99B5E;
 
-    border-left: #55DBCB 1px solid;
-    border-right:  #55DBCB 1px solid;
+    border-left: #FAD9B8 1px solid;
+    border-right:  #FAD9B8 1px solid;
 
 }
 
 .texto:hover {
 
 
-    color: #B7245C;
+    color: #c77d34;
     font-weight: bold;
 
 }
@@ -204,7 +204,7 @@ nav {
 
     font-size: 40px;
 
-    color:crimson;
+    color:#915416;
 
     padding-top: 20px;
 
@@ -220,12 +220,12 @@ nav {
 .elejir {
   border-radius: 6px;
 
-  background-color:#F0544F ;
+  background-color:#104B53 ;
+  color: white;
 
   height: 10vh;
   width: 30vh;
-  margin: auto;
-
+  
   position: relative;
   top: 0;
   bottom: 0;
@@ -242,10 +242,13 @@ nav {
   cursor: pointer;
 
 
-
-
-
 }
+
+/* #104B53 azul */
+/* #D99B5E marron */
+/* #FAD9B8 claro */
+/* #3C2035 violetita */
+/* #915416 fraseday */
 
 
 
@@ -296,9 +299,9 @@ nav {
 
     padding: 5px 20px;
 
-    background-color:#B7245C;
+    background-color:#D99B5E;
 
-    color: #98F7E9;
+    color: #104B53;
 
     font-size: 20px;
 
@@ -317,16 +320,18 @@ nav {
 
 .button:hover {
 
-    background-color: #900C3F;
+    background-color: #c77d34;
 
 }
+
+
 
 
 .card {
 
     border-radius: 9px;
     padding: 15px;
-    background-color: #FFD599;
+    background-color: #FAD9B8;
     box-shadow: 4px 6px 10px;
 
 }
@@ -364,12 +369,17 @@ nav {
 
     font-weight: bolder;
 
-    color:darkmagenta;
+    color:#104B53;
 
     padding-top: 10px;
     
 
 }
+
+/* #104B53 azul */
+/* #D99B5E marron */
+/* #FAD9B8 claro */
+/* #3C2035 violetita */
 
 
 /* LOCALES - FIN */
@@ -413,7 +423,7 @@ nav {
 .dietas {
     
 
-    border: 4px black dashed;
+    border: 4px #3C2035 dashed;
 
     padding: 20px;
 
@@ -424,7 +434,7 @@ nav {
 
 .tituloDieta {
 
-    color: blueviolet;
+    color: #3C2035;
 
     font-weight: bold;
 
