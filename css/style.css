@@ -319,6 +319,7 @@ nav {
     padding: 15px;
     background-color: #FAD9B8;
     box-shadow: 4px 6px 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -339,15 +340,28 @@ nav {
 
 /* LOCALES - INICIO */
 
+
+
 .contenedorUbi {
 
-    display: flex;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
 
     width: auto;
 
     height: auto;
 
-    justify-content:space-around;
+    text-align:center;
+
+    margin: auto;
+
+    justify-content: center;
+    
+
+}
+
+.textoUbi {
 
     text-transform: uppercase;
 
@@ -357,10 +371,13 @@ nav {
 
     color:#104B53;
 
-    padding-top: 10px;
-    
+    padding-top: 2px;
+    padding-bottom: 13px;
+
 
 }
+
+
 
 /* #104B53 azul */
 /* #D99B5E marron */
@@ -495,23 +512,6 @@ nav {
 }
 
 
-.contenedor {
-
-
-    display: grid;
-
-    width: auto;
-
-    height: auto;
-
-    text-align:center;
-
-    margin: auto;
-
-
-
-}
-
 
 /* FOOTER - FIN */
 
@@ -565,6 +565,12 @@ nav {
         grid-template-columns: 1fr 1fr;
 
         
+    }
+
+    .contenedorUbi {
+    
+        grid-template-columns: 1fr;
+
     }
 
    
