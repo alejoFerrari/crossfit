@@ -304,6 +304,15 @@ nav {
 
 }
 
+form .button {
+
+    padding: 5px 5px;
+
+    font-size: 15px;
+
+
+}
+
 .button:hover {
 
     background-color: #c77d34;
@@ -460,8 +469,6 @@ nav {
 
 .izquierdaPreguntas {
 
-    text-align: left;
-
     font-size: larger;
 
     font-family: 'Courier New', Courier, monospace;
@@ -473,17 +480,6 @@ nav {
 
 }
 
-.der {
-
- text-align: end;
-
-}
-
-.izq {
-
-    text-align: start;
-
-}
 
 /* CONTACTO - FIN */
 
@@ -576,6 +572,8 @@ nav {
    
 
 }
+
+
 
 
 
