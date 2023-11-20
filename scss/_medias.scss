@@ -1,0 +1,65 @@
+/* MEDIA QUERIES - INICIO */
+
+@media (max-width: 576px){
+
+
+
+
+    .imagenIndex {
+
+        height: auto;
+
+    }
+    
+    .texto {
+
+        border: none;
+
+        text-align: end;
+    }
+
+    .contenedorDietas {
+
+        grid-template-columns: 1fr;
+
+    }
+
+  
+
+
+}
+
+@media (min-width: 577px) and (max-width: 1199px){
+
+    
+    .imagenIndex {
+
+        height: auto;
+
+    }
+
+    .texto {
+
+        border: none;
+
+        text-align: end;
+    }
+
+    .contenedorDietas {
+
+        grid-template-columns: 1fr 1fr;
+
+        
+    }
+
+    .contenedorUbi {
+    
+        grid-template-columns: 1fr;
+
+    }
+
+   
+
+}
+
+/* MEDIA QUERIES - FIN */

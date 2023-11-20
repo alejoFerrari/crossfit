@@ -1,0 +1,59 @@
+/* DIETAS - INICIO */
+
+.dias {
+
+    color:black;
+
+    font-weight: bold;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    padding-top: 13px;
+}
+
+.contenedorDietas {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    width: auto;
+
+    height: auto;
+
+    text-align:center;
+
+    margin: auto;
+
+}
+
+.dietas {
+    
+
+    border: 4px #3C2035 dashed;
+
+    padding: 20px;
+
+    margin: 30px;
+
+
+}
+
+.tituloDieta {
+
+    color: #3C2035;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    font-size: 18px;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    text-decoration: underline;
+    
+
+}
+
+/* DIETAS - FIN */

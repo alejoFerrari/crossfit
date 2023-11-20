@@ -1,233 +1,13 @@
-
+/* GENERALES - INICIO */
 * {
-
-    margin: 0;
-
-    padding: 0;
-
-    font-family: sans-serif;
-
-
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-
-/* ETIQUETAS YA CREADAS - INICIO */
 
 img {
-
-    width: 100%;
-    height: auto;
-
-}
-
-a {
-
-    text-decoration: none;
-
-    text-transform: uppercase;
-
-    font-weight: 800;
-
-    font-family: sans-serif;
-
-}
-
-
-h1 {
-
-    text-align: center;
-
-    color: #D99B5E;
-
-
-    font-size: 29px;
-
-    text-transform: uppercase;
-
-    padding-top: 20px;
-
-    padding-bottom: 15px;
-
-    font-weight: bold;
-
-
-}
-
-
-h2 {
-
-    text-align: left;
-
-    color: black;
-
-    font-size: x-large;
-
-}
-
-
-nav {
-
-    font-size: 20px;
-
-}
-
-.logete {
-
-    width: 150px;
-
-}
-
-.encabezado {
-
-   background-color: #104B53;
-
-}
-
-.texto {
-
-    color: #D99B5E;
-
-    border-left: #FAD9B8 1px solid;
-    border-right:  #FAD9B8 1px solid;
-
-}
-
-/* vsdvd */
-
-.texto:hover {
-
-
-    color: #c77d34;
-    font-weight: bold;
-
-}
-
-
-/* ETIQUETAS YA CREADAS - FIN */
-
-
-
-/* NAVEGACION - INICIO*/
-
-
-.titulo {
-
-
-    color: #55DBCB;
-
-    font-size: 40px;
-
-    text-transform: none;
-
-
-}
-
-.logo {
-
-
-    height: 100px;
-
-    width: auto;
-
-
-}
-
-
-
-
-.displayInLine {
-
-    display: inline;
-
-}
-
-
-.displayFlex {
-
-    display: flex;
-
-    align-items: center;
-
-}
-
-
-
-/* NAVEGACION - FIN */
-
-
-/* INDEX - INICIO */
-
-
-
-.contenedorImagen {
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    row-gap: 15px;
-
-}
-
-
-.cardIndex {
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-
-}
-
-
-
-.imagenIndex {
-
-    height: 930px;
-
-}
-
-.textoPresentacion {
-
-    text-align: center;
-
-    font-size: x-large;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.fraseDay {
-
-    font-size: 40px;
-
-    color: #915416;
-
-    padding-top: 20px;
-
-    padding-bottom: 25px;
-
-}
-
-
-
-
-
-.elejir {
-
-    background-color: #104B53;
-    color: white;
-    padding: 3vh 12vh;
-    border-radius: 6px;
-
-
-    font-size: large;
-    text-transform: uppercase;
-    cursor: pointer;
-
-    text-shadow: 1px 1px 20px;
-
+  width: 100%;
+  height: auto;
 }
 
 /* #104B53 azul */
@@ -235,347 +15,230 @@ nav {
 /* #FAD9B8 claro */
 /* #3C2035 violetita */
 /* #915416 fraseday */
+/* GENERALES - FIN */
+/* HEADER - INICIO */
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: sans-serif;
+}
 
+nav {
+  font-size: 20px;
+}
 
+.logete {
+  width: 150px;
+}
+
+.encabezado {
+  background-color: #104B53;
+}
+
+.texto {
+  color: #D99B5E;
+  border-left: #FAD9B8 1px solid;
+  border-right: #FAD9B8 1px solid;
+}
+
+.texto:hover {
+  color: #c77d34;
+  font-weight: bold;
+}
+
+.titulo {
+  color: #55DBCB;
+  font-size: 40px;
+  text-transform: none;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #D99B5E;
+  font-size: 29px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+/* HEADER - FIN */
+/* INDEX - INICIO */
+.imagenIndex {
+  height: 930px;
+}
+
+.textoPresentacion {
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fraseDay {
+  font-size: 40px;
+  color: #915416;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.elejir {
+  background-color: #104B53;
+  color: white;
+  padding: 3vh 12vh;
+  border-radius: 6px;
+  font-size: large;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: 1px 1px 20px;
+}
 
 /* INDEX - FIN */
-
-
-
-
-
-
 /* PRODUCTOS- INICIO */
-
-
-
-.descripcion {
-
-    font-size: 22px;
-
-    font-weight: bold;
-
-    text-align: center;
-
-    padding-top: 10px;
-
-
-}
-
-.precio {
-
-    text-align: center;
-
-    font-weight: bold;
-
-    text-transform: uppercase;
-
-    padding-top: 10px;
-    
-    padding-bottom: 10px;
-
-    font-size: 20px;
-
-
-
-
-}
-
 .button {
-
-    padding: 5px 20px;
-
-    background-color:#D99B5E;
-
-    color: #104B53;
-
-    font-size: 20px;
-
-    font-weight: bold;
-
-    text-transform: uppercase;
-
-    border-radius: 10px;
-
-    border: none;
-
-    cursor: pointer;
-
-
-}
-
-form .button {
-
-    padding: 5px 5px;
-
-    font-size: 15px;
-
-
+  padding: 5px 20px;
+  background-color: #D99B5E;
+  color: #104B53;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .button:hover {
-
-    background-color: #c77d34;
-
+  background-color: #c77d34;
 }
 
-
-
-
 .card {
-
-    border-radius: 9px;
-    padding: 15px;
-    background-color: #FAD9B8;
-    box-shadow: 4px 6px 10px;
-    margin-bottom: 10px;
-
+  border-radius: 9px;
+  padding: 15px;
+  background-color: #FAD9B8;
+  box-shadow: 4px 6px 10px;
+  margin-bottom: 10px;
 }
 
 .card-img-top {
-
-    height: 50vh;
-    object-fit: contain;
-
-
+  height: 50vh;
+  object-fit: contain;
 }
 
-
-
-
 /* PRODUCTOS - FIN */
-
-
-
 /* LOCALES - INICIO */
-
-
-
 .contenedorUbi {
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    width: auto;
-
-    height: auto;
-
-    text-align:center;
-
-    margin: auto;
-
-    justify-content: center;
-    
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
 }
 
 .textoUbi {
-
-    text-transform: uppercase;
-
-    font-size: large;
-
-    font-weight: bolder;
-
-    color:#104B53;
-
-    padding-top: 2px;
-    padding-bottom: 13px;
-
-
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bolder;
+  color: #104B53;
+  padding-top: 2px;
+  padding-bottom: 13px;
 }
 
-
-
-/* #104B53 azul */
-/* #D99B5E marron */
-/* #FAD9B8 claro */
-/* #3C2035 violetita */
-
-
 /* LOCALES - FIN */
-
-
-
-
-
-
-
-
 /* DIETAS - INICIO */
-
 .dias {
-
-    color:black;
-
-    font-weight: bold;
-
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-    padding-top: 13px;
+  color: black;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 13px;
 }
 
 .contenedorDietas {
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;
-
-    width: auto;
-
-    height: auto;
-
-    text-align:center;
-
-    margin: auto;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: auto;
 }
 
 .dietas {
-    
-
-    border: 4px #3C2035 dashed;
-
-    padding: 20px;
-
-    margin: 30px;
-
-
+  border: 4px #3C2035 dashed;
+  padding: 20px;
+  margin: 30px;
 }
 
 .tituloDieta {
-
-    color: #3C2035;
-
-    font-weight: bold;
-
-    text-transform: uppercase;
-
-    font-size: 18px;
-
-    font-family:Arial, Helvetica, sans-serif;
-
-    text-decoration: underline;
-    
-
+  color: #3C2035;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
 }
 
 /* DIETAS - FIN */
-
-
-
 /* CONTACTO - INICIO */
-
-.izquierdaPreguntas {
-
-    font-size: larger;
-
-    font-family: 'Courier New', Courier, monospace;
-
-    font-weight: bold;
-
-    margin-left: 10px;
-
-
+.preguntas {
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-left: 10px;
 }
 
+form .button {
+  padding: 5px 5px;
+  font-size: 15px;
+}
 
 /* CONTACTO - FIN */
-
-
-
-
 /* FOOTER - INICIO */
-
 .link {
-
-    text-align: center;
-
-    color:crimson;
-
-    font-size: medium;
-
-    font-weight: bolder;
-
-
+  text-align: center;
+  color: crimson;
+  font-size: medium;
+  font-weight: bolder;
 }
 
 .derechos {
-
-    text-align: end;
-
+  text-align: end;
 }
-
-
 
 /* FOOTER - FIN */
-
-@media (max-width: 576px){
-
-
-
-
-    .imagenIndex {
-
-        height: auto;
-
-    }
-    
-    .texto {
-
-        border: none;
-
-        text-align: end;
-    }
-
-    .contenedorDietas {
-
-        grid-template-columns: 1fr;
-
-    }
-
-  
-
-
+/* MEDIA QUERIES - INICIO */
+@media (max-width: 576px) {
+  .imagenIndex {
+    height: auto;
+  }
+  .texto {
+    border: none;
+    text-align: end;
+  }
+  .contenedorDietas {
+    grid-template-columns: 1fr;
+  }
 }
-
-@media (min-width: 577px) and (max-width: 1199px){
-
-    
-    .imagenIndex {
-
-        height: auto;
-
-    }
-
-    .texto {
-
-        border: none;
-
-        text-align: end;
-    }
-
-    .contenedorDietas {
-
-        grid-template-columns: 1fr 1fr;
-
-        
-    }
-
-    .contenedorUbi {
-    
-        grid-template-columns: 1fr;
-
-    }
-
-   
-
+@media (min-width: 577px) and (max-width: 1199px) {
+  .imagenIndex {
+    height: auto;
+  }
+  .texto {
+    border: none;
+    text-align: end;
+  }
+  .contenedorDietas {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contenedorUbi {
+    grid-template-columns: 1fr;
+  }
 }
+/* MEDIA QUERIES - FIN */
 
-
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */
