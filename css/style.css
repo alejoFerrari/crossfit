@@ -199,7 +199,11 @@ h1 {
   font-size: larger;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  margin-left: 10px;
+}
+
+.preguntas:hover {
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 form .button {
@@ -233,6 +237,12 @@ form .button {
   .contenedorDietas {
     grid-template-columns: 1fr;
   }
+  .contenedorUbi {
+    grid-template-columns: 1fr;
+  }
+  .achicar {
+    width: 70%;
+  }
 }
 @media (min-width: 577px) and (max-width: 1199px) {
   .imagenIndex {
@@ -247,6 +257,9 @@ form .button {
   }
   .contenedorUbi {
     grid-template-columns: 1fr;
+  }
+  .achicar {
+    width: 70%;
   }
 }
 /* MEDIA QUERIES - FIN */
