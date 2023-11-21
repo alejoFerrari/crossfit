@@ -1,0 +1,14 @@
+
+@mixin alineadoColorTam ($alineacion, $color, $size) {
+
+    text-align:$alineacion;
+
+    color: $color;
+
+    font-size: $size;
+
+}
+
+
+
+

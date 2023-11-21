@@ -18,14 +18,24 @@ img {
 
 }
 
+h1 {
+
+    @include alineadoColorTam (center,#D99B5E,30px);
+
+    text-transform: uppercase;
+
+    padding-top: 20px;
+
+    padding-bottom: 15px;
+
+    font-weight: bold;
+
+
+}
+
 h2 {
 
-    text-align: center;
-
-    color: #3C2035;
-
-
-    font-size: 29px;
+    @include alineadoColorTam (center,#3C2035,30px);
 
     text-transform: uppercase;
 

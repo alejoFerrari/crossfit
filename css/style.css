@@ -10,10 +10,20 @@ img {
   height: auto;
 }
 
+h1 {
+  text-align: center;
+  color: #D99B5E;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
 h2 {
   text-align: center;
   color: #3C2035;
-  font-size: 29px;
+  font-size: 30px;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -66,16 +76,6 @@ nav {
 .logo {
   height: 100px;
   width: auto;
-}
-
-h1 {
-  text-align: center;
-  color: #D99B5E;
-  font-size: 29px;
-  text-transform: uppercase;
-  padding-top: 20px;
-  padding-bottom: 15px;
-  font-weight: bold;
 }
 
 /* HEADER - FIN */
