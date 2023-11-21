@@ -1,4 +1,6 @@
 
+/* MIXIN - INICIO */ 
+
 @mixin alineadoColorTam ($alineacion, $color, $size) {
 
     text-align:$alineacion;
@@ -9,6 +11,6 @@
 
 }
 
-
+/* MIXIN - FIN */ 
 
 
