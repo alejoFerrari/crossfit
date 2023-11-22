@@ -25,7 +25,7 @@ h1 {
 h2 {
   text-align: center;
   color: #3C2035;
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 15px;
@@ -67,12 +67,6 @@ nav {
 .texto:hover {
   color: #c77d34;
   font-weight: bold;
-}
-
-.titulo {
-  color: #55DBCB;
-  font-size: 40px;
-  text-transform: none;
 }
 
 .logo {

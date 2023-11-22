@@ -20,7 +20,7 @@ img {
 
 h1 {
 
-    @include alineadoColorTam (center,#D99B5E,30px);
+    @include alineadoColorSize (center,$color-secundario,30px);
 
     text-transform: uppercase;
 
@@ -35,7 +35,7 @@ h1 {
 
 h2 {
 
-    @include alineadoColorTam (center,#3C2035,30px);
+    @include alineadoColorSize (center,#3C2035,25px);
 
     text-transform: uppercase;
 

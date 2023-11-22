@@ -33,10 +33,10 @@ nav {
 
 .texto {
 
-    color: #D99B5E;
+    color: $color-secundario;
 
-    border-left: #FAD9B8 1px solid;
-    border-right:  #FAD9B8 1px solid;
+    border-left: $color-terciario 1px solid;
+    border-right:  $color-terciario 1px solid;
 
 }
 
@@ -49,17 +49,6 @@ nav {
 
 }
 
-.titulo {
-
-
-    color: #55DBCB;
-
-    font-size: 40px;
-
-    text-transform: none;
-
-
-}
 
 .logo {
 
