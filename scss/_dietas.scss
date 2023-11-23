@@ -30,7 +30,7 @@
 .dietas {
     
 
-    border: 4px #3C2035 dashed;
+    border: 4px $color-alternativo dashed;
 
     padding: 20px;
 
@@ -41,7 +41,7 @@
 
 .tituloDieta {
 
-    color: #3C2035;
+    color: $color-alternativo;
 
     font-weight: bold;
 

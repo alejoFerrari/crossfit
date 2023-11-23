@@ -2,16 +2,10 @@
 
 .link {
 
-    @include alineadoColorSize(center, crimson, medium);
+    @include alineadoColorSize(center, $color-secundario, medium);
 
     font-weight: bolder;
 
-
-}
-
-.derechos {
-
-    text-align: end;
 
 }
 
