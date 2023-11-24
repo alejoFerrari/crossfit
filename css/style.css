@@ -77,7 +77,8 @@ nav {
 /* HEADER - FIN */
 /* INDEX - INICIO */
 .imagenIndex {
-  height: 930px;
+  height: 100%;
+  overflow: hidden;
 }
 
 .textoPresentacion {
@@ -232,7 +233,7 @@ form .button {
     grid-template-columns: 1fr;
   }
   .achicar {
-    width: 70%;
+    width: 75%;
   }
 }
 @media (min-width: 577px) and (max-width: 1199px) {
@@ -250,7 +251,7 @@ form .button {
     grid-template-columns: 1fr;
   }
   .achicar {
-    width: 70%;
+    width: 75%;
   }
 }
 /* MEDIA QUERIES - FIN */
