@@ -93,6 +93,12 @@ nav {
   padding-top: 20px;
 }
 
+.fraseMoti {
+  text-align: center;
+  color: #900C3F;
+  font-size: 25px;
+}
+
 .elejir {
   background-color: #104B53;
   color: white;
@@ -127,7 +133,7 @@ nav {
   padding: 15px;
   background-color: #FAD9B8;
   box-shadow: 4px 6px 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .card-img-top {
