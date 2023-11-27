@@ -28,7 +28,7 @@ h2 {
   font-size: 23px;
   text-transform: uppercase;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   font-weight: bold;
 }
 
@@ -102,7 +102,7 @@ nav {
 .elejir {
   background-color: #104B53;
   color: white;
-  padding: 3vh 10vh;
+  padding: 3vh 8vh;
   border-radius: 6px;
   font-size: large;
   text-transform: uppercase;
