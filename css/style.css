@@ -141,6 +141,25 @@ nav {
   object-fit: contain;
 }
 
+.noPad {
+  padding: 0px;
+}
+
+.buttonModalComprar {
+  padding: 6px;
+  font-size: 15px;
+}
+
+.buttonModalCancelar {
+  padding: 6px;
+  font-size: 15px;
+  background-color: #FAD9B8;
+}
+
+.buttonModalCancelar:hover {
+  background-color: #FAE7D3;
+}
+
 /* PRODUCTOS - FIN */
 /* LOCALES - INICIO */
 .contenedorUbi {

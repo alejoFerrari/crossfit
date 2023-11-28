@@ -54,6 +54,38 @@
 
 }
 
+.noPad {
+
+padding: 0px;
+
+}
+
+.buttonModalComprar {
+
+    padding: 6px;
+
+    font-size: 15px;
+
+
+
+}
+
+.buttonModalCancelar {
+
+    padding: 6px;
+
+    font-size: 15px;
+
+    background-color: $color-terciario;
+}
+
+.buttonModalCancelar:hover {
+
+    background-color: #FAE7D3;
+
+}
+
+
 
 
 
