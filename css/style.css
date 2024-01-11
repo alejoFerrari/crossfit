@@ -32,6 +32,10 @@ h2 {
   font-weight: bold;
 }
 
+.achicarIconoButon {
+  height: 50px;
+}
+
 /* #104B53 azul */
 /* #D99B5E marron */
 /* #FAD9B8 claro */
@@ -261,13 +265,16 @@ form .button {
     width: 75%;
   }
 }
+@media (min-width: 992) {
+  .texto {
+    color: #D99B5E;
+    border-left: red 1px solid;
+    border-right: #FAD9B8 1px solid;
+  }
+}
 @media (min-width: 577px) and (max-width: 1199px) {
   .imagenIndex {
     height: auto;
-  }
-  .texto {
-    border: none;
-    text-align: end;
   }
   .contenedorDietas {
     grid-template-columns: 1fr 1fr;
@@ -277,6 +284,12 @@ form .button {
   }
   .achicar {
     width: 75%;
+  }
+}
+@media (max-width: 991px) {
+  .texto {
+    border: none;
+    text-align: end;
   }
 }
 /* MEDIA QUERIES - FIN */
