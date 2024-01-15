@@ -45,15 +45,19 @@ h2 {
 .contenedorWpp {
   display: inline-flex;
   position: sticky;
-  margin-left: 95%;
   z-index: 999;
+  left: 100%;
   top: 90%;
 }
 
 .tamañoWpp {
-  height: 7vh;
+  height: 6vh;
   object-fit: contain;
-  margin: 10px;
+  filter: drop-shadow(0px 0px 5px black);
+}
+
+.tamañoWpp:hover {
+  filter: brightness(108%) drop-shadow(0px 0px 5px black);
 }
 
 /* HEADER - INICIO */
@@ -262,25 +266,14 @@ form .button {
   .imagenIndex {
     height: auto;
   }
-  .texto {
-    border: none;
-    text-align: end;
-  }
   .contenedorDietas {
     grid-template-columns: 1fr;
   }
   .contenedorUbi {
     grid-template-columns: 1fr;
   }
-  .achicar {
-    width: 75%;
-  }
-}
-@media (min-width: 992) {
-  .texto {
-    color: #D99B5E;
-    border-left: red 1px solid;
-    border-right: #FAD9B8 1px solid;
+  .tamañoWpp {
+    height: 5vh;
   }
 }
 @media (min-width: 577px) and (max-width: 1199px) {
@@ -292,9 +285,6 @@ form .button {
   }
   .contenedorUbi {
     grid-template-columns: 1fr;
-  }
-  .achicar {
-    width: 75%;
   }
 }
 @media (max-width: 991px) {
