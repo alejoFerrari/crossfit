@@ -16,20 +16,13 @@
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr 1fr;
-
-    width: auto;
-
-    height: auto;
-
-    text-align:center;
-
-    margin: auto;
+    grid-template-columns: repeat(3,1fr);
 
 }
 
 .dietas {
-    
+
+    text-align: center;
 
     border: 4px $color-alternativo dashed;
 
