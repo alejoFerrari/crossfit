@@ -275,6 +275,9 @@ form .button {
   .tamañoWpp {
     height: 5vh;
   }
+  .achicar {
+    width: 75%;
+  }
 }
 @media (min-width: 577px) and (max-width: 1199px) {
   .imagenIndex {
@@ -285,6 +288,9 @@ form .button {
   }
   .contenedorUbi {
     grid-template-columns: 1fr;
+  }
+  .achicar {
+    width: 75%;
   }
 }
 @media (max-width: 991px) {
