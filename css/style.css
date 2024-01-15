@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* MIXIN - INICIO */
 /* MIXIN - FIN */
 /* GENERALES - INICIO */
@@ -18,7 +19,6 @@ h1 {
   font-size: 30px;
   text-transform: uppercase;
   padding-top: 20px;
-  padding-bottom: 15px;
   font-weight: bold;
 }
 
@@ -42,6 +42,20 @@ h2 {
 /* #3C2035 violetita */
 /* #915416 fraseday */
 /* GENERALES - FIN */
+.contenedorWpp {
+  display: inline-flex;
+  position: sticky;
+  margin-left: 95%;
+  z-index: 999;
+  top: 90%;
+}
+
+.tamañoWpp {
+  height: 7vh;
+  object-fit: contain;
+  margin: 10px;
+}
+
 /* HEADER - INICIO */
 a {
   text-decoration: none;
