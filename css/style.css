@@ -12,11 +12,6 @@ body {
   background: radial-gradient(circle, #FFFFFF, #F2EEEE);
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 h1 {
   text-align: center;
   color: #D99B5E;
@@ -167,10 +162,6 @@ nav {
   object-fit: contain;
 }
 
-.noPad {
-  padding: 0px;
-}
-
 .buttonModalComprar {
   padding: 6px;
   font-size: 15px;
@@ -267,9 +258,6 @@ form .button {
 /* FOOTER - FIN */
 /* MEDIA QUERIES - INICIO */
 @media (max-width: 576px) {
-  .imagenIndex {
-    height: auto;
-  }
   .contenedorDietas {
     grid-template-columns: 1fr;
   }
@@ -284,9 +272,6 @@ form .button {
   }
 }
 @media (min-width: 577px) and (max-width: 1199px) {
-  .imagenIndex {
-    height: auto;
-  }
   .contenedorDietas {
     grid-template-columns: 1fr 1fr;
   }
