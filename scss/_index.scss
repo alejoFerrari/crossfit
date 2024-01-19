@@ -1,14 +1,5 @@
 /* INDEX - INICIO */
 
-.imagenIndex {
-
-    height: 100%;
-
-    overflow: hidden;
-    
-
-}
-
 .textoPresentacion {
 
     text-align: center;
@@ -51,6 +42,19 @@
     cursor: pointer;
 
     text-shadow: 1px 1px 20px;
+
+}
+
+.carousel-item {
+    height: 80vh;
+
+}
+
+.imagenIndex {
+
+    height: 80vh;
+    width: 100%;
+    object-fit: fill;
 
 }
 

@@ -31,10 +31,6 @@ h2 {
   font-weight: bold;
 }
 
-.achicarIconoButon {
-  height: 50px;
-}
-
 /* #104B53 azul */
 /* #D99B5E marron */
 /* #FAD9B8 claro */
@@ -95,13 +91,16 @@ nav {
   width: auto;
 }
 
-/* HEADER - FIN */
-/* INDEX - INICIO */
-.imagenIndex {
-  height: 100%;
-  overflow: hidden;
+.achicarIconoButon {
+  height: 50px;
 }
 
+.navbar-toggler {
+  border: dashed 3px #D99B5E;
+}
+
+/* HEADER - FIN */
+/* INDEX - INICIO */
 .textoPresentacion {
   text-align: center;
   font-size: x-large;
@@ -129,6 +128,16 @@ nav {
   text-transform: uppercase;
   cursor: pointer;
   text-shadow: 1px 1px 20px;
+}
+
+.carousel-item {
+  height: 80vh;
+}
+
+.imagenIndex {
+  height: 80vh;
+  width: 100%;
+  object-fit: fill;
 }
 
 /* INDEX - FIN */
@@ -286,6 +295,13 @@ form .button {
   .texto {
     border: none;
     text-align: end;
+  }
+  .carousel-item {
+    height: auto;
+  }
+  .imagenIndex {
+    height: auto;
+    object-fit: contain;
   }
 }
 /* MEDIA QUERIES - FIN */
