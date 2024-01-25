@@ -1,11 +1,24 @@
 /* FOOTER - INICIO */
 
+.division {
+
+    border-top: 3px $color-secundario double;
+
+    margin-top: 30px;
+    padding-top: 40px;
+
+}
+
 .link {
 
-    @include alineadoColorSize(center, $color-secundario, medium);
+    @include alineadoColorSize(center, #c77d34, medium);
 
-    font-weight: bolder;
+}
 
+
+.link:visited {
+
+    color: $color-alternativo;
 
 }
 

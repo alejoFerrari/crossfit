@@ -257,11 +257,20 @@ form .button {
 
 /* CONTACTO - FIN */
 /* FOOTER - INICIO */
+.division {
+  border-top: 3px #D99B5E double;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+
 .link {
   text-align: center;
-  color: #D99B5E;
+  color: #c77d34;
   font-size: medium;
-  font-weight: bolder;
+}
+
+.link:visited {
+  color: #900C3F;
 }
 
 /* FOOTER - FIN */
